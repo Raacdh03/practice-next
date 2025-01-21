@@ -9,7 +9,7 @@ const HeaderContent = ({ title, breadCrumb }: HeaderContentProps) => {
   return (
     <Box mb={4}>
       <Flex alignItems="center">
-        <Heading as="h1"  fontSize='50px' fontWeight="bold">
+        <Heading as="h1"  fontSize='40px' fontWeight="bold">
           {title}
         </Heading>
 
