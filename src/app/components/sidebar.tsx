@@ -24,6 +24,7 @@ import {
 } from '@chakra-ui/react'
 import {
   FiHome,
+  FiUser,
   FiSettings,
   FiMenu,
   FiBell,
@@ -53,6 +54,7 @@ interface SidebarProps extends BoxProps {
 
 const LinkItems: Array<LinkItemProps> = [
   { name: 'Home', icon: FiHome, location: '/' },
+  { name: 'User', icon: FiUser, location: '/users' },
   { name: 'Settings', icon: FiSettings, location: '/settings' },
 ]
 
