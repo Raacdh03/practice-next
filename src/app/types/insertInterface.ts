@@ -1,8 +1,17 @@
+"use client";
+
 export interface userData {
     username: string;
     name: string;
     email: string;
     role?: string;
+}
+
+export const initValueUser: userData = {
+    username: "",
+    name: "",
+    email: "",
+    role: "",
 }
 
 export const fakeDataUser: userData[] = [
